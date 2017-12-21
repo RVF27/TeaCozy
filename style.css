@@ -1,0 +1,140 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  text-align:center;
+
+}
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+
+}
+header nav {
+  padding-right: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+.logo img {
+  height: 50px;
+  width: auto;
+}
+ header span
+{
+  padding-left: 20px;
+}
+header a {
+  color: seashell;
+}
+.container {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 69px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+.content {
+  flex-direction: column;
+  width: 1200px;
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg")
+}
+
+.mission {
+  display: inline-block;
+  margin-top: 275px;
+  background-color: black;
+  height: auto;
+  width: 1200px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.month {
+  width: 1000px;
+  height: auto;
+  text-align:center;
+  margin-top:350px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  width: 1000px;
+    }
+    .container3 {
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+        }
+
+
+.teas2   {
+  display: inline-block;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  }
+
+.teatext {
+  margin:10px;
+}
+.berry img {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin:10px;
+}
+.location {
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
+}
+.location h2 {
+  padding-top: 75px;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+
+}
+.box2 {
+  background-color: black;
+  width: 300px;
+}
+.spacer {
+  width:40px;
+}
+.contact {
+  height: 200px;
+  text-align: center;
+}
+.footer {
+  text-align: left;
+  left-margin: 20px
+}
+.footer p{
+  text-align: left;
+  left-margin: 20px
+}
