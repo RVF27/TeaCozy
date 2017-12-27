@@ -71,7 +71,8 @@ nav span {
   width: 1000px;
   height: auto;
   text-align:center;
-  margin-top:350px;
+  margin-top:50px;
+  margin-left: 400px;
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -80,30 +81,33 @@ nav span {
 .container2 {
   width: 1000px;
     }
-    .container3 {
+.container3 {
     display: flex;
     width: 1000px;
+    flex-direction:row;
+    border: 1px solid white;
+    margin-left: 400px;
     flex-wrap: wrap;
-    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
 
-        }
+          }
 
 
-.teas2   {
-  display: inline-block;
-  flex-wrap: wrap;
-  flex-direction: row;
-
-  }
 
 .teatext {
   margin:10px;
 }
-.berry img {
+
+.teas img {
   display: inline-block;
   width: 300px;
   height: 200px;
   margin:10px;
+}
+.teas p {
+
 }
 .location {
   flex-direction: column;
